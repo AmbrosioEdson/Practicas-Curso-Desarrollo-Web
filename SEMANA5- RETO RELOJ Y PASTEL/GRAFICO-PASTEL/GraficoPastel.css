@@ -1,0 +1,41 @@
+.contenedor-grafico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.grafico-container {
+    border: 2px solid black;
+    margin-right: 20px; 
+}
+h1 {
+    background-color: #252422;
+    color: #F24B4B;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+.leyenda {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.leyenda-elemento {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.leyenda-color {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
