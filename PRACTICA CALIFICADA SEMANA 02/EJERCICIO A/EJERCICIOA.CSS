@@ -1,0 +1,117 @@
+/* 
+.box {
+    flex: 1;
+    min-width: calc(20% - 20px);
+    margin: 10px;
+    padding: 20px;
+
+}
+
+@media (max-width: 600px) {
+    .box {
+        flex: 1 100%;
+        min-width: 100%;
+    }
+}
+
+.box:nth-child(1) {
+    background-color: palevioletred;
+    color: white; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px green;
+    
+}
+
+.box:nth-child(2) {
+    background-color: aquamarine;
+    color: black; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    text-shadow: 1px 1px 2px black, 0 0 25px purple, 0 0 5px midnightblue;
+    
+
+} */
+/* CORRECIÓN EJERCICIO A DE LA PRACTICA 2 */
+
+body{
+    height: 100vh;
+    margin: 0;    
+}
+
+p{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cabecera{
+    height: 20%;
+    background-color: blue;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-size: 40px;
+
+}
+.main{
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.footer{
+    height: 20%;
+    font-family: 'Rubik Iso', cursive;
+    background-color: black;
+    color: gold;
+}
+
+
+.box{
+    width: 33.3333333%;   
+}
+
+@media (max-width: 600px) {
+    .main{
+        flex-direction: column;
+    }
+    .box{
+        height: 33.3333333%;
+        width: 100%;
+    }
+}
+
+.box:nth-child(1){
+    font-family: 'Merriweather', serif;
+    background-color: greenyellow;
+    font-size: 30px;
+    color: purple;
+    padding: 20px;
+    
+}
+
+.box:nth-child(2){
+    font-family: 'Oswald', sans-serif;
+    background-color: grey;
+    font-size: 30px;
+    color: aquamarine;
+    padding: 20px;
+    
+}
+
+.box:nth-child(3){
+    font-family: 'Montserrat', sans-serif;
+    background-color: darkgoldenrod;
+    font-size: 30px;
+    color:blue;
+    padding: 20px;  
+    
+}
